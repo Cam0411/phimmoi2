@@ -63,7 +63,7 @@
   font-size: 30px;
   line-height: 45px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .swiper .swiper-slide .swiper__about {
@@ -190,6 +190,7 @@
   overflow: hidden;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  border-radius: 10px;
 }
 
 .content .sub__swiper .swiper-sub-slide .sub__slide {
@@ -217,6 +218,7 @@
           flex-direction: column;
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
+  border-radius: 10px;
 }
 
 .content .sub__swiper .swiper-sub-slide .sub__slide .sub__slide-nav li {
@@ -224,17 +226,18 @@
   list-style: none;
   color: #fff;
   font-size: 25px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .content .sub__swiper .swiper-sub-slide .sub__slide p {
   color: #fff;
   margin-bottom: 5px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 550;
   padding: 10px;
   text-align: center;
-  line-height: 25px;
+  line-height: 28px;
 }
 
 .content .swiper-pagination {
