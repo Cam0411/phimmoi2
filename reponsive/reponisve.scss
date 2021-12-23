@@ -1,0 +1,182 @@
+$darkcolor:#0004;
+$darkcolor2:#111319;
+$lightcolor:#fff;
+
+@media (max-width: 739px)
+{
+    .header 
+{
+   
+    .header__logo img
+    {
+       width: 150px;
+       margin-top: 8px;
+    }
+    .header__nav 
+    {
+        text-align: right;
+        li 
+        {
+            list-style: none;
+            display: inline-block;
+            line-height: 30px;
+            margin-top: 15px;
+            font-size: 18px;
+            margin-right: 10px;
+            color: $lightcolor;
+        }
+    }
+}
+.swiper 
+{
+.swiper-slide
+{
+    .swiper__info
+    {
+        margin-top: 400px;
+    }
+.swiper__img img  
+{
+    display: none;
+}
+}
+}
+.content
+{
+    height: 1500px;
+     overflow: hidden;
+    
+     background: $darkcolor2;
+    .sub__swiper 
+    {
+        height: 250px;
+   
+ 
+    .swiper-sub-slide 
+    {
+        background: none;
+        
+        img 
+        {
+            width: 100%;
+             height: 100%;
+   
+        }      
+        }
+    }
+}
+}
+@media (max-width:300px)
+{
+    .content
+{
+    height: 1500px;
+     overflow: hidden;
+    
+     background: $darkcolor2;
+    .sub__swiper 
+    {
+        height: 180px;
+   
+      
+    .swiper-sub-slide 
+    {
+        background: none;
+        
+        img 
+        {
+            width: 100%;
+             height: 100%;
+         
+        }      
+        }
+    }
+}
+}
+@media (min-width: 740px) and (max-width: 1023.5px) 
+{
+    .swiper 
+    {
+    .swiper-slide
+    {
+    .swiper__img img  
+    {
+        display: none;
+    }
+}
+}
+.content
+{
+    height: 1500px;
+     overflow: hidden;
+    
+     background: $darkcolor2;
+    .sub__swiper 
+    {
+        height: 220px;
+   
+     
+    .swiper-sub-slide 
+    {
+        background: none;
+        img 
+        {
+            width: 100%;
+             height: 100%;
+             transition: 0.4s;
+     
+        }      
+        }
+    }
+}
+}
+@media (min-width: 1024px) and (max-width: 1239px) 
+{
+    .content
+{
+    height: 1500px;
+     overflow: hidden;
+    
+     background: $darkcolor2;
+    .sub__swiper 
+    {
+        height: 250px;
+   
+
+    .swiper-sub-slide 
+    {
+        background: none;
+        
+        img 
+        {
+            width: 100%;
+             height: 100%;
+       
+        }   
+        .sub__slide 
+        {
+          .sub__slide-nav li
+          {
+            display: inline-block;
+            list-style: none;
+            color: $lightcolor;
+            font-size: 22px;
+            margin-right: 10px;
+        
+          }
+          p 
+          {
+              color: $lightcolor;
+              margin-bottom: 0px;
+              font-size: 15px;
+              font-weight: 700;
+              padding: 10px;
+              text-align: center;
+              line-height: 20px;
+          }
+        }   
+        }
+      
+    }
+}
+}
