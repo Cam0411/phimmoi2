@@ -243,7 +243,9 @@
             </div>
             
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
       </div>
     </div>
@@ -344,7 +346,9 @@
             </div>
             
           </div>
-          <div class="swiper-pagination"></div>
+       
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
       </div>
     </div>
@@ -374,10 +378,15 @@ var swiper = new Swiper(".mySwiper", {
   var swiper = new Swiper(".mySwiper2", {
     slidesPerView: 1,
     spaceBetween: 10,
+
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+    navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
     breakpoints: {
       240: {
         slidesPerView: 2,
