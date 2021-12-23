@@ -15,10 +15,26 @@
     color: #fff;
   }
   .swiper .swiper-slide .swiper__info {
-    margin-top: 400px;
+    margin-top: 300px;
   }
   .swiper .swiper-slide .swiper__img img {
     display: none;
+  }
+  .swiper .swiper-slide-3 {
+    background: -webkit-gradient(linear, right top, left top, from(#0004), to(#111319)), url("love.jpg");
+    background: linear-gradient(right, #0004, #111319), url("love.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  .swiper .swiper-slide-7 {
+    background: -webkit-gradient(linear, right top, left top, from(#0004), to(#111319)), url("hawkeye.jpg");
+    background: linear-gradient(right, #0004, #111319), url("hawkeye.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
   }
   .content {
     height: 1500px;
