@@ -201,7 +201,7 @@
   overflow: hidden;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-left: 10px;
 }
 
@@ -230,7 +230,11 @@
           flex-direction: column;
   -webkit-transform: translateY(-100px);
           transform: translateY(-100px);
-  border-radius: 10px;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition-timing-function: cubic-bezier(0.6, 1.6, 0.4, 0.7);
+          transition-timing-function: cubic-bezier(0.6, 1.6, 0.4, 0.7);
+  border-radius: 5px;
 }
 
 .content .sub__swiper .swiper-sub-slide .sub__slide .sub__slide-nav li {
