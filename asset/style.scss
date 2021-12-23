@@ -256,6 +256,16 @@ $redcolor:#fb0007;
     .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
     {
         background: $lightcolor;
+        margin-top: 100px;
+        
+    }
+    .swiper-button-prev 
+    {
+        color: $lightcolor;
+    }
+    .swiper-button-next
+    {
+        color: $lightcolor;
     }
 }
 .BgColour {
