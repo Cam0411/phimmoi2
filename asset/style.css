@@ -151,7 +151,7 @@
 }
 
 .content {
-  height: 1500px;
+  height: auto;
   overflow: hidden;
   background: #111319;
 }
@@ -163,6 +163,7 @@
   margin-top: 60px;
   font-weight: 700;
   font-size: 22px;
+  margin-left: 18px;
 }
 
 .content .swiper__icon i {
@@ -200,6 +201,7 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 10px;
+  margin-left: 10px;
 }
 
 .content .sub__swiper .swiper-sub-slide .sub__slide {
