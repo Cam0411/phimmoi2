@@ -51,10 +51,19 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .swiper .swiper-slide .swiper__info {
-  margin-top: 400px;
+  margin-top: 200px;
   padding: 10px;
 }
 
@@ -79,7 +88,7 @@
 
 .swiper .swiper-slide .swiper__img img {
   width: 300px;
-  margin-top: 280px;
+  margin-top: 100px;
   margin-right: 20px;
   padding: 10px;
   border-radius: 16px;
