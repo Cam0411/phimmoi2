@@ -1,7 +1,7 @@
 @media (max-width: 739px) {
   .header .header__logo img {
-    width: 150px;
-    margin-top: 8px;
+    width: 130px;
+    margin-top: 12px;
   }
   .header .header__nav {
     text-align: right;
@@ -12,10 +12,11 @@
     line-height: 30px;
     margin-top: 15px;
     font-size: 18px;
+    margin-right: 15px;
     color: #fff;
   }
   .swiper .swiper-slide .swiper__info {
-    margin-top: 350px;
+    margin-top: 150px;
   }
   .swiper .swiper-slide .swiper__img img {
     display: none;
@@ -92,6 +93,9 @@
 }
 
 @media (min-width: 740px) and (max-width: 1023.5px) {
+  .swiper .swiper-slide .swiper__info {
+    margin-top: 150px;
+  }
   .swiper .swiper-slide .swiper__img img {
     display: none;
   }

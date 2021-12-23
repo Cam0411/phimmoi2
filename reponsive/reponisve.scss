@@ -9,8 +9,8 @@ $lightcolor:#fff;
    
     .header__logo img
     {
-       width: 150px;
-       margin-top: 8px;
+       width: 130px;
+       margin-top: 12px;
     }
     .header__nav 
     {
@@ -22,7 +22,7 @@ $lightcolor:#fff;
             line-height: 30px;
             margin-top: 15px;
             font-size: 18px;
-          
+            margin-right: 15px;
             color: $lightcolor;
         }
     }
@@ -33,7 +33,7 @@ $lightcolor:#fff;
 {
     .swiper__info
     {
-        margin-top: 350px;
+        margin-top: 150px;
     }
 .swiper__img img  
 {
@@ -149,6 +149,10 @@ $lightcolor:#fff;
     {
     .swiper-slide
     {
+        .swiper__info
+        {
+            margin-top: 150px;
+        }
     .swiper__img img  
     {
         display: none;
