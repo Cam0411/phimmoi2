@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAC;EAChB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,OAAO;CAEtB;;AAED,AAAA,yBAAyB,CAAC;EAEtB,UAAU,EAAE,OAAO;CACtB;;AAED,AAAA,yBAAyB,CAAC;EAEtB,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,GAAG;CACb;;AACD,AAAA,gBAAgB,AAAA,yBAAyB,CACzC;EACI,UAAU,EAAE,OAAO;CACtB",
+    "sources": [
+        "srcoll.scss"
+    ],
+    "names": [],
+    "file": "srcoll.css"
+}
