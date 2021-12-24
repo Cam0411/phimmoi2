@@ -8,6 +8,11 @@ $redcolor:#fb0007;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
+}
+body 
+{
+    background: $darkcolor2;
 }
 .header 
 {
@@ -153,12 +158,21 @@ $redcolor:#fb0007;
     background-position: center;
     position: relative;
 }
+.swiper-slide-6
+{
+    background: linear-gradient(right,$darkcolor,$darkcolor2),
+    url("encour2.jpg");;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
 }
 .content
 {
     height: auto;
      overflow: hidden;
-    
+    margin-bottom: 80px;
      background: $darkcolor2;
      .swiper__heading 
      {
@@ -188,62 +202,29 @@ $redcolor:#fb0007;
         position: relative;
     .swiper-sub-slide 
     {
-        overflow: hidden;
+    
         background: none;
-      
-         
-     
+        flex-direction: column;
+       p 
+       {
+           color: $lightcolor;
+        
+       }
       &:hover img 
       {
           transform: scale(1.02);
+          opacity: 0.4;
       }
         img 
         {
             width: 100%;
              height: 100%;
-             overflow: hidden;
            transition: 0.4s;
            border-radius: 5px;
-           margin-left: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
         }      
-        .sub__slide 
-        {
-            width: 100%;
-            height: 100%;
-            background: #000;
-           position: absolute;
-           top: 0;
-           left: 0;
-          opacity: 0;
-          transition: 0.4s;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-         transform: translateY(-100px);
-         transform-origin: 0 0;
-         transition-timing-function: cubic-bezier(0.6,1.6,0.4,0.7);
-         border-radius: 5px;
-          .sub__slide-nav li
-          {
-            display: inline-block;
-            list-style: none;
-            color: $lightcolor;
-            font-size: 25px;
-            margin-right: 5px;
-           margin-left: 5px;
-          }
-          p 
-          {
-              color: $lightcolor;
-              margin-bottom: 5px;
-              font-size: 18px;
-              font-weight: 550;
-              padding: 10px;
-              text-align: center;
-              line-height: 28px;
-          }
-        }
+ 
         }
     }
     .swiper-pagination
@@ -255,15 +236,28 @@ $redcolor:#fb0007;
     {
         background: $lightcolor;
         margin-top: 100px;
-        
+        outline: none;
+        outline: none;
+        border: none;
+ 
+    }
+    .swiper-button-next:after, .swiper-button-prev:after
+    {
+        font-size: 40px ;
+        font-weight: 700;
     }
     .swiper-button-prev 
     {
         color: $lightcolor;
+        outline: none;
+        outline: none;
+        border: none;
     }
     .swiper-button-next
     {
         color: $lightcolor;
+        outline: none;
+        border: none;
     }
 }
 .BgColour {
