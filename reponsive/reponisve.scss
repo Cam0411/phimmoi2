@@ -82,38 +82,14 @@ $lightcolor:#fff;
              height: 100%;
    
         }   
-        .sub__slide 
-        {
-          .sub__slide-nav 
-          {
-              margin-left: auto;
-              margin-right: auto;
-          }
-
-          .sub__slide-nav li
-          {
-            display: inline-block;
-            list-style: none;
-            color: $lightcolor;
-            font-size: 22px;
-            margin-top: 0px;
- 
-            text-align: center;
         
-          }
-          p 
-          {
-              color: $lightcolor;
-              margin-bottom: 0px;
-              font-size: 13px;
-              font-weight: 550;
-              padding: 10px;
-              text-align: center;
-             
-          }
-        }     
         }
     }
+    .swiper-button-next:after, .swiper-button-prev:after
+    {
+        font-size: 35px ;
+        font-weight: 700;
+    }  
 }
 }
 @media (max-width:300px)
