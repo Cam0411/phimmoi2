@@ -11,9 +11,13 @@
     display: inline-block;
     line-height: 30px;
     margin-top: 15px;
-    font-size: 18px;
-    margin-right: 15px;
+    font-size: 20px;
+    margin-right: -10px;
     color: #fff;
+    display: none;
+  }
+  .header .header__nav li.menu__padding {
+    display: block;
   }
   .swiper .swiper-slide .swiper__info {
     margin-top: 150px;
