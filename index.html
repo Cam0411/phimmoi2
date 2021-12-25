@@ -22,8 +22,8 @@
            <div class="col l-6 m-6 c-6">
             <ul class="header__nav">
                 <li><i class="far fa-user"></i></li>
-                <li><i class="fas fa-search"></i></li>
-                <li><i class="fas fa-bars"></i></li>
+                <li><i class="search fas fa-search"></i></li>
+                <li><i class="menu fas fa-bars"></i></li>
             </ul>
            </div>
          </div>
@@ -175,12 +175,11 @@
         <p class="swiper__heading">Top Trending</p>
         <div class="swiper sub__swiper mySwiper2">
           <div class="swiper-wrapper">
-
+   
             <div class="swiper-slide swiper-sub-slide ">
+             
        <a href="index.html">  <img src="asset/flim.jpg" alt="" srcset=""></a>    
-       <div class="sub__info">
 
-      </div>
             </div>
      
             <div class="swiper-slide swiper-sub-slide ">  
@@ -404,7 +403,43 @@
       </div>
     </div>
   </div>
+<div class="footer">
+ <div class="grid wide">
+   <div class="row">
+     <div class="col l-6 m-6 c-12">
+     <p class="author">duongnguyencam05@gmail.com</p>
+   </div>
+   <div class="col l-6 m-6 c-12">
+     <ul class="footer__nav">
+       <li><a href="https://www.facebook.com/profile.php?id=100009308517792"><i class="fab fa-facebook"></i></a></li>
+       <li><a href="https://github.com/Cam0411/phimmoi2.git"><i class="fab fa-github"></i></a></li>
+  
+     </ul>
+  </div>
+ </div>
+</div>
+</div>
+<div class="modal">
+  
+  <div class="modal__content">
+   <ul class="modal__nav">
+    <li>Watch Now</li>
+    <li>Browse</li>
+    <li>Lastest</li>
+    <li>Tv Shows</li>
+    <li>Movies</li>
+   </ul>
+  </div>
 
+</div>
+<div class="modal__search">
+  <div class="search__content">
+    <form action="" class="form__search">
+      <input type="text" placeholder="Search" class="search__btn">
+    </form>
+  </div>
+</div>
+<div class="modal__background"></div>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
@@ -414,7 +449,7 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     loop: true,
     autoplay: {
-      delay: 2500,
+      delay: 3000,
       disableOnInteraction: false,
     },
     pagination: {
