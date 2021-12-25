@@ -339,14 +339,27 @@ body {
   margin-bottom: 40px;
   list-style: none;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.modal .modal__nav li:hover {
-  -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+.modal .modal__nav li i {
+  margin-right: 10px;
+}
+
+.modal .modal__nav li:hover .changecolor {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
   color: #fb0007;
+}
+
+.modal .modal__nav li .changecolor {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 10px;
 }
 
 .modal.open {

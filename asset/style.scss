@@ -332,12 +332,23 @@ transform: translateX(-100%);
             margin-bottom: 40px;
             list-style: none;
             cursor: pointer;
+            display: flex;
             transition: 0.4s;
-            &:hover 
+            i 
             {
-                transform: translateX(5px);
-                color: $redcolor;
+                margin-right: 10px;
             }
+           &:hover .changecolor 
+           {
+               transform: translateX(10px);
+               color: $redcolor;
+           }
+           .changecolor 
+           {
+               transition: 0.4s;
+               margin-left: 10px;
+            
+           }
         }
     }
 }
