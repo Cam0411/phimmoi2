@@ -30,21 +30,3 @@ menu.addEventListener("click",function(){
     modalbackground.classList.toggle("open2")
 })
 
-
-var search = document.querySelector(".search")
-var searchModal = document.querySelector(".modal__search ")
-var  modalbackground = document.querySelector(".modal__background")
-var searchContent = document.querySelector(".search__content ")
-search.addEventListener("click",function(){
-    searchModal.classList.add("open")
-})
-searchModal.addEventListener("click",function(){
-    searchModal.classList.remove("open")
-    modalbackground.classList.remove("open2")
-})
-searchContent.addEventListener("click",function(event){
-    event.stopPropagation()
-})
-search.addEventListener("click",function(){
-    modalbackground.classList.toggle("open2")
-})
