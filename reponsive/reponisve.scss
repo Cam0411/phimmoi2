@@ -63,7 +63,7 @@ $lightcolor:#fff;
 }
 .content
 {
-    height: 1500px;
+    height: auto;
      overflow: hidden;
     
      background: $darkcolor2;
@@ -91,12 +91,56 @@ $lightcolor:#fff;
         font-weight: 700;
     }  
 }
+.footer  
+{
+    height: auto;
+    .author 
+    {
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .footer__nav 
+    {
+        text-align: left;
+       margin-bottom: 10px;
+    }
+}
+.modal 
+{
+    .modal__content 
+    {
+        background: $darkcolor2;
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+ 
+}
+.modal__search 
+{
+    .search__content 
+    {
+        background: $darkcolor2;
+        width: 85%;
+        height: 100%;
+      
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+ 
+}
 }
 @media (max-width:300px)
 {
     .content
 {
-    height: 1500px;
+    height: auto;
      overflow: hidden;
     
      background: $darkcolor2;
@@ -137,7 +181,7 @@ $lightcolor:#fff;
 }
 .content
 {
-    height: 1500px;
+  
      overflow: hidden;
     
      background: $darkcolor2;
@@ -189,6 +233,36 @@ $lightcolor:#fff;
         }
     }
 }
+.modal 
+{
+    .modal__content 
+    {
+        background: $darkcolor2;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+ 
+}
+.modal__search 
+{
+    .search__content 
+    {
+        background: $darkcolor2;
+        width: 50%;
+        height: 100%;
+
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+ 
+}
 }
 @media (min-width: 1024px) and (max-width: 1239px) 
 {
@@ -239,5 +313,35 @@ $lightcolor:#fff;
         }
       
     }
+}
+.modal 
+{
+    .modal__content 
+    {
+        background: $darkcolor2;
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+ 
+}
+.modal__search 
+{
+    .search__content 
+    {
+        background: $darkcolor2;
+        width: 35%;
+        height: 100%;
+     
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+ 
 }
 }
