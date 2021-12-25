@@ -367,51 +367,7 @@ transform: translateX(-100%);
     display: block;
     opacity: 1;
 }
-.modal__search 
-{
-    position: fixed;
-    transform: translateX(-100%);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99999999;
-   transition: 0.4s;
-    .search__content 
-    {
-   
-        height: 100%;
-        background: $darkcolor2;
-       width: 25%;
-       padding: 30px;
-    }
-    .form__search 
-    {
-        
-        width: 100%;
-        background: none;
-        outline: none;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-  .search__btn 
-  {
-      background: none;
-      outline: none;
-      border: none;
-      border-bottom: 2px solid $lightcolor;
-      width: 100%;
-      color: $lightcolor;
-      padding-bottom: 5px;
-      margin-top: 40px;
-      &::placeholder 
-      {
-          color: $lightcolor;
-      }
-  }
-    }
-}
+
 .modal__search.open 
 {
     transform: translateX(0);
