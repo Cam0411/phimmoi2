@@ -116,6 +116,11 @@ body {
   cursor: pointer;
 }
 
+.swiper .swiper-slide .swiper__nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .swiper .swiper-slide .swiper__nav li:hover {
   background: #000;
 }

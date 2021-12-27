@@ -113,6 +113,11 @@ body
                 margin-right: 20px;
                 margin-bottom: 20px;
                 transition: 0.4s;
+                a 
+                {
+                    color: $lightcolor;
+                    text-decoration: none;
+                }
                 &:hover 
                 {
                     background: #000;
