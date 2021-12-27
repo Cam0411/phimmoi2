@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #111319;
+}
+
+.header {
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999999;
+  background: #0004;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.header .header__logo img {
+  width: 200px;
+  margin-top: 3px;
+}
+
+.header .header__nav {
+  text-align: right;
+}
+
+.header .header__nav li {
+  list-style: none;
+  display: inline-block;
+  line-height: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header .header__nav li.menu__padding {
+  padding-right: 15px;
+}
+
+.content {
+  height: auto;
+}
+
+.content .content__info {
+  height: 500px;
+  background: -webkit-gradient(linear, right top, left top, from(#0004), to(#111319)), url("../encour2.jpg");
+  background: linear-gradient(right, #0004, #111319), url("../encour2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.modal .modal__content {
+  background: #111319;
+  width: 25%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: fadeIn  0.4s ease-in-out;
+          animation: fadeIn  0.4s ease-in-out;
+}
+
+.modal .modal__nav li {
+  color: #fff;
+  margin-bottom: 40px;
+  list-style: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modal .modal__nav li i {
+  margin-right: 10px;
+}
+
+.modal .modal__nav li:hover .changecolor {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  color: #fb0007;
+}
+
+.modal .modal__nav li .changecolor {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-left: 10px;
+}
+
+.modal.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+.modal__background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  background: #0004;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-animation: fadeIn  0.4s ease-in-out;
+          animation: fadeIn  0.4s ease-in-out;
+  display: none;
+}
+
+.modal__background.open2 {
+  display: block;
+  opacity: 1;
+}
+
+.modal__search.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=info__style.css.map */

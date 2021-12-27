@@ -1,0 +1,163 @@
+$darkcolor:#0004;
+$darkcolor2:#111319;
+$lightcolor:#fff;
+$redcolor:#fb0007;
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body 
+{
+    background: $darkcolor2;
+}
+.header 
+{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999999;
+    background: $darkcolor;
+    padding: 10px;
+    overflow: hidden;
+    .header__logo img
+    {
+       width: 200px;
+       margin-top: 3px;
+    }
+    .header__nav 
+    {
+        text-align: right;
+        li 
+        {
+            list-style: none;
+            display: inline-block;
+            line-height: 30px;
+            margin-top: 15px;
+            font-size: 20px;
+            margin-right: 15px;
+            margin-left: 15px;
+            color: $lightcolor;
+            cursor: pointer;
+        }
+   li.menu__padding 
+   {
+       padding-right: 15px;
+   }
+    }
+}
+.content 
+{
+    height: auto;
+    .content__info 
+    {
+        height: 500px;
+        background: linear-gradient(right,$darkcolor,$darkcolor2),
+        url("../encour2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+    }
+
+}
+.modal 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999999;
+    display: flex;
+     cursor: pointer;
+transform: translateX(-100%);
+     transition: 0.4s;
+    opacity: 0;
+    cursor: pointer;
+    .modal__content 
+    {
+        background: $darkcolor2;
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        animation: fadeIn  0.4s ease-in-out;
+    
+    }
+    .modal__nav 
+    {
+        li 
+        {
+            color: $lightcolor;
+            margin-bottom: 40px;
+            list-style: none;
+            cursor: pointer;
+            display: flex;
+            transition: 0.4s;
+            i 
+            {
+                margin-right: 10px;
+            }
+           &:hover .changecolor 
+           {
+               transform: translateX(10px);
+               color: $redcolor;
+           }
+           .changecolor 
+           {
+               transition: 0.4s;
+               margin-left: 10px;
+            
+           }
+        }
+    }
+}
+.modal.open 
+{
+    transform: translateX(0);
+    opacity: 1;
+
+}
+.modal__background
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+  background: #0004;
+  opacity: 0;
+  transition: 0.4s;
+  animation: fadeIn  0.4s ease-in-out;
+  display: none;
+
+}
+.modal__background.open2
+{
+    display: block;
+    opacity: 1;
+}
+
+.modal__search.open 
+{
+    transform: translateX(0);
+}
+@keyframes fadeIn 
+{
+    from{
+        opacity: 0;
+    }to {
+        opacity: 1;
+    }
+}
