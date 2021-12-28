@@ -1,0 +1,19 @@
+$darkcolor:#0004;
+$darkcolor2:#111319;
+.content 
+{  
+    .content__info 
+    {
+        background: linear-gradient(top,$darkcolor,$darkcolor2),
+        url("../ourbelove2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        display: grid;
+    }
+    .right__info  
+    {
+        margin-left: -20px;
+    }
+}

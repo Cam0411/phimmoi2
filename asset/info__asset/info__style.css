@@ -83,8 +83,9 @@ body {
   color: #fff;
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin-left: 2px;
+  line-height: 55px;
 }
 
 .content .right__info .info__about {

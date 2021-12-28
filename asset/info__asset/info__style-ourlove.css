@@ -1,0 +1,15 @@
+.content .content__info {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0004), to(#111319)), url("../ourbelove2.jpg");
+  background: linear-gradient(top, #0004, #111319), url("../ourbelove2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+}
+
+.content .right__info {
+  margin-left: -20px;
+}
+/*# sourceMappingURL=info__style-ourlove.css.map */

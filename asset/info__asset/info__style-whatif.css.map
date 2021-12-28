@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAEI,QAFI,CAEJ,cAAc,CACd;EACI,UAAU,EAAE,oCAA2C,EACvD,oBAAoB;EACpB,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;CAChB;;AAXL,AAYI,QAZI,CAYJ,GAAG,CACH;EACI,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "info__style-whatif.scss"
+    ],
+    "names": [],
+    "file": "info__style-whatif.css"
+}

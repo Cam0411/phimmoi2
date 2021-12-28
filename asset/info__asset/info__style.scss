@@ -72,7 +72,7 @@ overflow-x: hidden;
         position: relative;
         display: grid;
 
-
+  
     }
     .content__movie 
     {
@@ -82,7 +82,6 @@ overflow-x: hidden;
 .left__info 
 {
     margin-left: 10px;
-
 }
 .right__info 
 {
@@ -92,9 +91,9 @@ overflow-x: hidden;
     color: $lightcolor;
     font-size: 40px;
     font-weight: 600;
-   margin-bottom: 15px;
+   margin-bottom: 5px;
   margin-left: 2px;
-
+line-height: 55px;
 } 
 .info__about 
 {
@@ -136,8 +135,8 @@ overflow-x: hidden;
         margin-right: 10px;
     }
     }
-}
-}
+
+}}
 .info__plot 
 {
     margin-left: 12px;
