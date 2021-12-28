@@ -40,7 +40,7 @@
                 <p class="swiper__about">Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.</p>
                  <ul class="swiper__nav">
                     <li><i class="fas fa-play-circle"></i> Watch Now</li>
-                    <li><i class="fas fa-info-circle"></i>View Info</li>
+                    <a href="info/info__hawkeye.html"> <li> <i class="fas fa-info-circle"></i>View Info</li></a>
                     
                  </ul>
               </div>
@@ -63,7 +63,7 @@
                 <p class="swiper__about">Return to a world of two realities: one, everyday life; the other, what lies behind it. To find out if his reality is a construct, to truly know himself, Mr. Anderson will have to choose to follow the white rabbit once more.</p>
                  <ul class="swiper__nav">
                     <li><i class="fas fa-play-circle"></i> Watch Now</li>
-                    <li><i class="fas fa-info-circle"></i>View Info</li>
+                    <a href="info/info__matrix.html"> <li> <i class="fas fa-info-circle"></i>View Info</li></a>
                  </ul>
               </div>
             
@@ -85,7 +85,7 @@
                 <p class="swiper__about">A coming of age, romantic comedy revolving around ex-lovers who broke up with a promise never to meet again. But the documentary they filmed ten years ago gets the fame and they are by compulsion facing camera once more.</p>
                  <ul class="swiper__nav">
                     <li><i class="fas fa-play-circle"></i> Watch Now</li>
-                    <li><i class="fas fa-info-circle"></i>View Info</li>
+                    <a href="info/info__ourbeloved.html"> <li> <i class="fas fa-info-circle"></i>View Info</li></a>
                  </ul>
               </div>
             
@@ -108,7 +108,7 @@
                 <p class="swiper__about">Set in utopian Piltover and the oppressed underground of Zaun, the story follows the origins of two iconic League champions-and the power that will tear them apart.</p>
                  <ul class="swiper__nav">
                     <li><i class="fas fa-play-circle"></i> Watch Now</li>
-                    <li><i class="fas fa-info-circle"></i>View Info</li>
+                    <a href="info/info__acrane.html"> <li> <i class="fas fa-info-circle"></i>View Info</li></a>
                  </ul>
               </div>
             
@@ -130,7 +130,7 @@
                 <p class="swiper__about">Exploring pivotal moments from the Marvel Cinematic Universe and turning them on their head, leading the audience into uncharted territory.</p>
                  <ul class="swiper__nav">
                     <li><i class="fas fa-play-circle"></i> Watch Now</li>
-                    <li><i class="fas fa-info-circle"></i>View Info</li>
+                    <a href="info/info__whatif.html"> <li> <i class="fas fa-info-circle"></i>View Info</li></a>
                  </ul>
               </div>
             
@@ -442,13 +442,14 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 0,
     centeredSlides: true,
     loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
+ 
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
     },
 
   });
@@ -465,7 +466,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     autoplay: {
       delay: 3500,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
     navigation: {
           nextEl: ".swiper-button-next",
