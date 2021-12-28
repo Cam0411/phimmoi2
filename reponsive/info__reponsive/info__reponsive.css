@@ -60,6 +60,7 @@
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 15px;
+    line-height: 44px;
   }
   .content .right__info .info__about {
     color: #fff;
@@ -82,6 +83,9 @@
   }
   .content .right__info .info__nav-2 li {
     font-size: 14px;
+  }
+  .content .info__plot {
+    padding-right: 10px;
   }
   .content .content__trailers {
     padding: 10px;
@@ -210,6 +214,7 @@
     font-weight: 600;
     margin-bottom: 15px;
     margin-left: 8px;
+    line-height: 44px;
   }
   .content .right__info .info__about {
     color: #fff;
